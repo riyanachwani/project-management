@@ -7,7 +7,7 @@
 Project Management Tool
 
 ## `Description`
-Project Management Tool is a web-based Tasks management system developed as Task 2 for the **Bharat Intern** internship program. It allows users assign tasks to each other. It allows users to add tasks, delete tasks and set a timer for the tasks. 
+Project Management Tool is a web-based Tasks management system developed as Task 2 for the **Bharat Intern** internship program. It allows users assign tasks to each other(add tasks), delete tasks and set a timer for the tasks. 
 
 ## `Tech Stack Used`
 <li>HTML</li>
