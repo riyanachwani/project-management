@@ -16,6 +16,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+
   <title>PROJECT MANAGEMENT TOOL</title>
 </head>
 
@@ -24,7 +25,7 @@
     <h1>PROJECT MANAGEMENT TOOL</h1>
   </header>
   <div class="container-wrapper">
-    <div class="container">
+    <div class="container"> <!--image container-->
       <img src="download.jpg" alt="Your Image">
     </div>
     <div class="card">
@@ -55,9 +56,10 @@
 
         </div>
       </div>
-      <h4>Chatbox</h4>
 
-      <div class="chat-container">
+      <!--Chatbox-->
+      <h4>Chatbox</h4>
+      <div class="chat-container"> 
         <div class="user-details">
           <input type="text" id="name-input" placeholder="User Name" />
         </div>
@@ -69,6 +71,7 @@
         </form>
       </div>
 
+      <!--JS Code of Chatbox-->
       <script>
         const form = document.getElementById('chat-form');
         const messageInput = document.getElementById('message-input');
@@ -108,6 +111,7 @@
           }
         });
 
+        //For generating random colors for each user.
         function getRandomColor() {
           const colors = ['#ff0000', '#00ff00', '#0000ff', '#ff00ff', '#ffff00', '#00ffff'];
           return colors[Math.floor(Math.random() * colors.length)];
@@ -160,7 +164,6 @@
                 <label>User</label>
                 <select name="project" id="add-task-project" class="form-control" required></select>
               </div>
-
 
               <div class="form-group">
                 <label>Task</label>
