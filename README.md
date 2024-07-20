@@ -7,11 +7,7 @@
 Project Management Tool
 
 ## `Description`
-The Project Management Tool is a web-based task management system designed to streamline task organization and collaboration. Key features include:
-
-- **Task assignment and deletion**
-- **Timer settings for tasks**
-- **User management**
+The Project Management Tool is a web-based task management system designed to streamline task organization and collaboration. 
 
 ## `Tech Stack Used`
 <li>HTML</li>
