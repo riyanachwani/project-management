@@ -11,8 +11,7 @@ The Project Management Tool is a web-based task management system designed to st
 
 - **Task assignment and deletion**
 - **Timer settings for tasks**
-- **User management** (add and delete users)
-- **Chatbox** for real-time communication between users
+- **User management**
 
 ## `Tech Stack Used`
 <li>HTML</li>
